@@ -1,0 +1,51 @@
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1/subdir1
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1/subdir1
+CREATE_FILE /dir1 file1.txt
+CREATE_FILE /dir1/subdir1 file2.txt
+RENAME_DIRECTORY /dir1/subdir1 /dir1/subdir2
+RENAME_FILE /dir1/subdir2 file2.txt file2_renamed.txt
+COPY_FILE /dir1 /dir1/subdir2 file1.txt
+DELETE_FILE /dir1 file1.txt
+DELETE_DIRECTORY /dir1/subdir2
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1/subdir1
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1/subdir1
+CREATE_FILE /dir1 file1.txt
+CREATE_FILE /dir1/subdir1 file2.txt
+RENAME_DIRECTORY /dir1/subdir1 /dir1/subdir2
+RENAME_FILE /dir1/subdir2 file2.txt file2_renamed.txt
+COPY_FILE /dir1 /dir1/subdir2 file1.txt
+DELETE_FILE /dir1 file1.txt
+DELETE_DIRECTORY /dir1/subdir2
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1/subdir1
+CREATE_FILE /dir1 file1.txt
+CREATE_FILE /dir1 file1.txt
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1/subdir1
+CREATE_FILE /dir1 file1.txt
+CREATE_FILE /dir1/subdir1 file2.txt
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1/subdir1
+CREATE_FILE /dir1 file1.txt
+CREATE_FILE /dir1/subdir1 file2.txt
+RENAME_DIRECTORY /dir1/subdir1 /dir1/subdir2
+RENAME_FILE /dir1/subdir2 file2.txt file2_renamed.txt
+COPY_FILE /dir1 /dir1/subdir2 file1.txt
+DELETE_FILE /dir1 file1.txt
+CREATE_DIRECTORY /dir1
+CREATE_DIRECTORY /dir1/subdir1
+CREATE_FILE /dir1 file1.txt
+CREATE_FILE /dir1/subdir1 file2.txt
+RENAME_DIRECTORY /dir1/subdir1 /dir1/subdir2
+RENAME_FILE /dir1/subdir2 file2.txt file2_renamed.txt
+COPY_FILE /dir1 /dir1/subdir2 file1.txt
+DELETE_FILE /dir1 file1.txt
+DELETE_DIRECTORY /dir1/subdir2
+CREATE_DIRECTORY /dir1
+CREATE_FILE /dir1 file.txt
+DELETE_DIRECTORY /dir1
